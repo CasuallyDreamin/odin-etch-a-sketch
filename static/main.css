@@ -1,6 +1,15 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
 .container {
     display: flex;
     flex-direction: column;
+    height: 960px;
+    width: 960px;
 }
 
 .square {
@@ -9,14 +18,15 @@
 }
 
 .row {
+    flex: 1;
     display:flex;
 }
 
 .square {
-    width:60px;
-    height: 60px;
-    background-color:lightblue;
-    border: 1px solid black;
+    aspect-ratio: 1 / 1;
+    background-color:rgb(173, 216, 230);
+    border: 0px solid black;
+    opacity: 1;
 }
 
 .square:hover {
