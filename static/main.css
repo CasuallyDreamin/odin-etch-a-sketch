@@ -23,6 +23,7 @@ body {
 }
 
 .square {
+    width:100%;
     aspect-ratio: 1 / 1;
     background-color:rgb(173, 216, 230);
     border: 0px solid black;
